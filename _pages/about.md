@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: home
 permalink: /
 subtitle: <a href="https://www.psu.edu/">At Penn State</a>
 

@@ -10,10 +10,12 @@ This README explains how to update your personal profile, add news items, and ma
 Each lab member has a profile file in `_pages/about/`.
 
 **To update your profile:**
+
 1. Locate your profile file (e.g., `_pages/about/eduardo.md`).
 2. Edit the file using Markdown. Update your name, research topic, email, and relevant links.
 
 **Profile Template:**
+
 ```markdown
 ## Your Name
 
@@ -34,8 +36,10 @@ Links: [LinkedIn](https://linkedin.com/in/yourprofile)
 News items are stored in the `_news/` directory as Markdown files.
 
 **To add a news item:**
+
 1. Create a new file in `_news/` named `YYYY-MM-DD-title.md`.
 2. Use this template:
+
 ```markdown
 ---
 title: "Short News Title"
@@ -47,6 +51,7 @@ Brief description of the news item.
 ```
 
 **To edit an existing news item:**
+
 - Open the relevant file in `_news/` and make your changes.
 
 ---
@@ -56,8 +61,10 @@ Brief description of the news item.
 Publications are listed in the `_publications/` directory.
 
 **To add a publication:**
+
 1. Create a new file in `_publications/` named `YYYY-title.md`.
 2. Use this template:
+
 ```markdown
 ---
 title: "Publication Title"
@@ -71,6 +78,7 @@ Short summary or abstract of the publication.
 ```
 
 **To edit a publication:**
+
 - Open the relevant file in `_publications/` and update details as needed.
 
 ---

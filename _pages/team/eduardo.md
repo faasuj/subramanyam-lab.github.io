@@ -2,7 +2,7 @@
 
 _Joined group in Spring 2023_
 
-Research topic: Machine learning for scheduling applications
+Research topic: Machine learning for embedded planning & scheduling applications
 
 Email: <mailto:eduardolopez@psu.edu>\
 Links:

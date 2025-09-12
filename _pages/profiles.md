@@ -12,37 +12,37 @@ profiles:
   Principal Investigator:
     - align: left
       image: anirudh-2.jpg
-      content: team/anirudh.md
+      content: anirudh.md
       more_info:
 
   Ph.D. Students:
     - align: left
       image: jaeseok.jpg
-      content: team/jaeseok.md
+      content: jaeseok.md
     - align: left
       image: waquar.jpg
-      content: team/waquar.md
+      content: waquar.md
     - align: left
       image: taehyeon.jpg
-      content: team/taehyeon.md
+      content: taehyeon.md
     - align: left
       image: tom.jpg
-      content: team/tom.md
+      content: tom.md
 
   M.S. Students:
     - align: left
       image: tania.jpg
-      content: team/tania.md
+      content: tania.md
 
   D.Eng. Students:
     - align: left
       image: nick.svg
-      content: team/nick.md
+      content: nick.md
 
   Undergraduate Researchers:
     - align: left
       image: eduardo2.jpg
-      content: team/eduardo.md
+      content: eduardo.md
       image_circular: false # crops the image to make it circular
       more_info:
 ---

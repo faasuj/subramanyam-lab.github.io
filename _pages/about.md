@@ -6,7 +6,7 @@ subtitle: <a href="https://www.psu.edu/">At Penn State</a>
 
 profile:
   align: center
-  image: psu.jpg
+  image: penn_state_engineering_logo.jpeg
   image_circular: false # crops the image to make it circular
   #more_info: >
   #  <p>Leonhard Building, Pennsylvania State University</p>

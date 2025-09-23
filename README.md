@@ -14,6 +14,13 @@ Each lab member has a profile file in `_pages/about/`.
 1. Locate your profile file (e.g., `_pages/about/eduardo.md`).
 2. Edit the file using Markdown. Update your name, research topic, email, and relevant links.
 
+**To update your picture**
+
+1. Add image to `/assets/img/team`
+2. Change image name in your profile file
+
+*Note:* Only `.jpg` images are compatible for profile pictures. Please ensure your image file uses the `.jpg` extension.
+
 **Profile Template:**
 
 ```markdown

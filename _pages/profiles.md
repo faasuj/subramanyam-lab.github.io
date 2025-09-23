@@ -36,7 +36,7 @@ profiles:
 
   D.Eng. Students:
     - align: left
-      image: nick.svg
+      #image: nick.svg
       content: about/nick.md
 
   Undergraduate Researchers:

@@ -1,6 +1,38 @@
 ---
 layout: page
 ---
+<style>
+.people {
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.people img {
+  width: 363px;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  background: #fff;
+  margin-right: 2rem;
+}
+.more-info {
+  margin-top: 0.5rem;
+}
+@media (max-width: 768px) {
+  .people {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .people img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+</style>
+
 <div class="post">
   <article>
     {% if page.profiles %}
@@ -12,25 +44,19 @@ layout: page
           <div class="people float-{% if people.align == 'left' %}left{% else %}right{% endif %}">
             {% if people.image %}
               {% assign profile_image_path = people.image | prepend: 'assets/img/' %}
-              {% if people.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              <img src="{{ profile_image_path }}" alt="{{ people.image }}" class="img-fluid z-depth-1 rounded" />
+            {% endif %}
+            <div>
+              {% if people.more_info %}
+                <div class="more-info">{{ people.more_info }}</div>
               {% endif %}
-              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=people.image %}
-            {% endif %}
-            {% if people.more_info %}
-              <div class="more-info">{{ people.more_info }}</div>
-            {% endif %}
+              {% if people.content %}
+                {% capture profile_content %}{% include_relative {{ people.content }} %}{% endcapture %}
+                {{ profile_content | markdownify }}
+              {% endif %}
+            </div>
           </div>
-
-          <div class="clearfix">
-            {% if people.content %}
-              {% capture profile_content %}{% include_relative {{ people.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% endif %}
-          </div>
+          <div class="clearfix"></div>
         {% endfor %}
       {% endfor %}
     {% endif %}

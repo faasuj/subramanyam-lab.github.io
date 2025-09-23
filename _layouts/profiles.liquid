@@ -43,7 +43,7 @@ layout: page
           <hr>
           <div class="people float-{% if people.align == 'left' %}left{% else %}right{% endif %}">
             {% if people.image %}
-              {% assign profile_image_path = people.image | prepend: 'assets/img/' %}
+              {% assign profile_image_path = people.image | prepend: 'assets/img/team' %}
               <img src="{{ profile_image_path }}" alt="{{ people.image }}" class="img-fluid z-depth-1 rounded">
             {% endif %}
             <div>

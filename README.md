@@ -5,6 +5,16 @@ This README explains how to update your personal profile, add news items, and ma
 
 ---
 
+## Table of Contents
+
+1. [Editing Your Profile](#1-editing-your-profile)
+2. [Adding or Editing News Items](#2-adding-or-editing-news-items)
+3. [Adding or Editing Publications](#3-adding-or-editing-publications)
+4. [Submitting Your Changes](#4-submitting-your-changes)
+5. [Need Help?](#need-help)
+
+---
+
 ## 1. Editing Your Profile
 
 Each lab member has a profile file in `_pages/about/`.

@@ -9,10 +9,10 @@ layout: page
     gap: 2rem;
   }
   .people img {
-    width: 363px;
-    height: 400px;
+    width: 300px;
+    height: 380px;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: 0px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
     background: #fff;
     margin-right: 2rem;
@@ -43,8 +43,8 @@ layout: page
           <hr>
           <div class="people float-{% if people.align == 'left' %}left{% else %}right{% endif %}">
             {% if people.image %}
-              {% assign profile_image_path = people.image | prepend: 'assets/img/team' %}
-              <img src="{{ profile_image_path }}" alt="{{ people.image }}" class="img-fluid z-depth-1 rounded">
+              {% assign profile_image_path = people.image | prepend: 'assets/img/team/' %}
+              <img src="{{ profile_image_path | relative_url }}" alt="{{ people.image }}" class="img-fluid z-depth-1 rounded">
             {% endif %}
             <div>
               {% if people.more_info %}

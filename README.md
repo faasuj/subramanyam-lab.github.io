@@ -29,7 +29,7 @@ Each lab member has a profile file in `_pages/about/`.
 1. Add image to `/assets/img/team`
 2. Change image name in your profile file
 
-*Note:* Only `.jpg` images are compatible for profile pictures. Please ensure your image file uses the `.jpg` extension.
+_Note:_ Only `.jpg` images are compatible for profile pictures. Please ensure your image file uses the `.jpg` extension.
 
 **Profile Template:**
 
@@ -105,33 +105,36 @@ Short summary or abstract of the publication.
 To contribute updates or new content to the Systems Optimization Lab website, follow these streamlined steps:
 
 1. **Fork & Clone**  
-Fork the repository to your GitHub account, then clone it to your computer:
+   Fork the repository to your GitHub account, then clone it to your computer:
+
 ```bash
 git clone https://github.com/your-username/subramanyam-lab.github.io.git
 cd subramanyam-lab.github.io
 ```
 
 2. **Create a Branch**  
-Make a new branch for your changes:
+   Make a new branch for your changes:
+
 ```bash
 git checkout -b update-profile
 ```
 
 3. **Edit Files**  
-Update your profile, add news, or publications as needed. Follow the templates in the repo for consistency.
+   Update your profile, add news, or publications as needed. Follow the templates in the repo for consistency.
 
 4. **Commit Changes**  
-Add and commit with a clear message:
+   Add and commit with a clear message:
+
 ```bash
 git add .
 git commit -m "Update profile for [Your Name]"
 ```
 
 5. **Push & Open Pull Request**  
-Push your branch and open a Pull Request on GitHub. Explain your changes briefly.
+   Push your branch and open a Pull Request on GitHub. Explain your changes briefly.
 
 6. **Review**  
-Respond to any feedback, make adjustments if needed, and wait for merge.
+   Respond to any feedback, make adjustments if needed, and wait for merge.
 
 This process keeps the site accurate and ensures every update gets reviewed.
 

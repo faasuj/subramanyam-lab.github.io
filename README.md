@@ -75,7 +75,7 @@ Brief description of the news item.
 
 ## 3. Adding or Editing Publications
 
-Publications are listed in the `_publications/` directory.
+Publications are listed in the `_bibliography/` directory.
 
 **To add a publication:**
 

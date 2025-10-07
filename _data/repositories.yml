@@ -1,13 +1,15 @@
-github_users:
-  - AnirudhSubramanyam
-  - theSubsurfaceGuy
-  - TaehyeonKwon
-  - HongliangLiPSU
-  - faasuj
-  - Chestnut1216
-  - eduardolopez13
+# github_users:
+#   - AnirudhSubramanyam
+#   - theSubsurfaceGuy
+#   - TaehyeonKwon
+#   - HongliangLiPSU
+#   - faasuj
+#   - Chestnut1216
+#   - eduardolopez13
 
 repo_description_lines_max: 2
 
 github_repos:
   - subramanyam-lab/JSSP-NN
+  - subramanyam-lab/HPC-Resources-PSU
+  

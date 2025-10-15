@@ -75,11 +75,11 @@ Brief description of the news item.
 
 ## 3. Adding or Editing Publications
 
-Publications are listed in the `_publications/` directory.
+Publications are listed in the `_bibliography/` directory.
 
 **To add a publication:**
 
-1. Create a new file in `_publications/` named `YYYY-title.md`.
+1. Create a new file in `_bibliography/` named `YYYY-title.md`.
 2. Use this template:
 
 ```markdown
@@ -96,7 +96,7 @@ Short summary or abstract of the publication.
 
 **To edit a publication:**
 
-- Open the relevant file in `_publications/` and update details as needed.
+- Open the relevant file in `_bibliography/` and update details as needed.
 
 ---
 
